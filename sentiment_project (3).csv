@@ -1,0 +1,11 @@
+Review,Cleaned,Sentiment,Key_Phrases
+I absolutely love this product!,absolutely love product,Positive,"['I', 'this product']"
+"Terrible experience, very disappointed.",terrible experience disappointed,Negative,['Terrible experience']
+"The service was okay, not great.",service okay great,Positive,['The service']
+"Amazing quality, I will buy again!",amazing quality buy,Positive,['I']
+"Bad packaging, item damaged.",bad packaging item damaged,Negative,['item']
+Good value for the money.,good value money,Positive,"['Good value', 'the money']"
+I hate how slow the delivery was.,hate slow delivery,Negative,"['I', 'the delivery']"
+Perfect! Exactly what I needed.,perfect exactly needed,Positive,"['Exactly what', 'I']"
+Not bad but could be better.,bad could better,Negative,[]
+Fantastic! Highly recommended.,fantastic highly recommended,Positive,[]
