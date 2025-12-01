@@ -1,0 +1,46 @@
+# Sentiment Analysis NLP Project
+
+This project analyzes customer reviews using Natural Language Processing (NLP).  
+It generates sentiment labels (Positive, Neutral, Negative) and extracts key phrases.  
+The project can run either in Google Colab or locally using Python.
+
+---
+
+## Developer
+**Omaima Toto**
+
+---
+
+## Features
+- Text preprocessing  
+- Sentiment analysis using TextBlob  
+- Key phrase extraction using spaCy  
+- CSV output  
+- Visualization of sentiment distribution  
+
+---
+
+## Example Output
+| Review | Sentiment | Key Phrases |
+|--------|-----------|-------------|
+| "Amazing product!" | Positive | ["amazing product"] |
+
+---
+
+## Technologies Used
+- Python  
+- pandas  
+- spaCy  
+- TextBlob  
+- Matplotlib  
+- Jupyter Notebook / Google Colab  
+
+---
+
+## Running on Google Colab
+1. Open the notebook file `notebook.ipynb` in Google Colab  
+2. Install dependencies:
+
+```bash
+!pip install pandas textblob spacy matplotlib
+!python -m spacy download en_core_web_sm
