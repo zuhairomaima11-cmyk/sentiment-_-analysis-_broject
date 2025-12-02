@@ -1,46 +1,38 @@
-# Sentiment Analysis NLP Project
+# Sentiment Analysis Project 📝
 
-This project analyzes customer reviews using Natural Language Processing (NLP).  
-It generates sentiment labels (Positive, Neutral, Negative) and extracts key phrases.  
-The project can run either in Google Colab or locally using Python.
+## Overview
+This project is a **Sentiment Analyzer** built using Python and NLP libraries.  
+It reads text data (e.g., reviews or comments), cleans the text, analyzes sentiment, and visualizes the results.  
 
----
-
-## Developer
-**Omaima Toto**
+- **Goal:** Automatically classify text as positive, negative, or neutral.  
+- **Use Case:** Product reviews, social media comments, feedback analysis.
 
 ---
 
 ## Features
-- Text preprocessing  
-- Sentiment analysis using TextBlob  
-- Key phrase extraction using spaCy  
-- CSV output  
-- Visualization of sentiment distribution  
+- Text cleaning: lowercasing, removing punctuation, stopwords removal  
+- Tokenization, stemming, and lemmatization  
+- Sentiment analysis using **TextBlob**  
+- Visualization of sentiment distribution using **Matplotlib**  
+- Ready-to-run Jupyter Notebook
 
 ---
 
-## Example Output
-| Review | Sentiment | Key Phrases |
-|--------|-----------|-------------|
-| "Amazing product!" | Positive | ["amazing product"] |
+## Demo
+Here’s an example of sentiment analysis output:
+
+| Comment | Polarity | Sentiment |
+|---------|----------|-----------|
+| "I love this product!" | 0.8 | Positive |
+| "It was okay." | 0 | Neutral |
+| "I hate it." | -0.7 | Negative |
+
+![Sentiment Chart Example](screenshot.png)  
+*(Optional: add a screenshot of your chart)*
 
 ---
 
-## Technologies Used
-- Python  
-- pandas  
-- spaCy  
-- TextBlob  
-- Matplotlib  
-- Jupyter Notebook / Google Colab  
-
----
-
-## Running on Google Colab
-1. Open the notebook file `notebook.ipynb` in Google Colab  
-2. Install dependencies:
-
+## Installation
+1. Clone the repository:
 ```bash
-!pip install pandas textblob spacy matplotlib
-!python -m spacy download en_core_web_sm
+git clone https://github.com/zuhairomaima11-cmyk/sentiment-_-analysis-_broject.git
