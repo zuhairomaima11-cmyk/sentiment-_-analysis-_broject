@@ -1,38 +1,54 @@
 # Sentiment Analysis Project 📝
-
 ## Overview
 This project is a **Sentiment Analyzer** built using Python and NLP libraries.  
-It reads text data (e.g., reviews or comments), cleans the text, analyzes sentiment, and visualizes the results.  
+It reads text data (reviews/comments), cleans it, analyzes sentiment, and visualizes results.  
 
-- **Goal:** Automatically classify text as positive, negative, or neutral.  
-- **Use Case:** Product reviews, social media comments, feedback analysis.
-
----
-
+**Goal:** Automatically classify text as Positive, Negative, or Neutral.  
+**Use Case:** Product reviews, social media comments, feedback analysis.
 ## Features
-- Text cleaning: lowercasing, removing punctuation, stopwords removal  
-- Tokenization, stemming, and lemmatization  
-- Sentiment analysis using **TextBlob**  
-- Visualization of sentiment distribution using **Matplotlib**  
+- Text cleaning: lowercase, remove punctuation, stopwords
+- Tokenization, Stemming & Lemmatization
+- Sentiment analysis using **TextBlob**
+- Visualization of sentiment distribution using **Matplotlib**
 - Ready-to-run Jupyter Notebook
-
----
-
-## Demo
-Here’s an example of sentiment analysis output:
-
-| Comment | Polarity | Sentiment |
-|---------|----------|-----------|
-| "I love this product!" | 0.8 | Positive |
-| "It was okay." | 0 | Neutral |
-| "I hate it." | -0.7 | Negative |
-
-![Sentiment Chart Example](screenshot.png)  
-*(Optional: add a screenshot of your chart)*
-
----
-
 ## Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/zuhairomaima11-cmyk/sentiment-_-analysis-_broject.git
+   git clone https://github.com/zuhairomaima11-cmyk/sentiment-_-analysis-_broject.git
+2. Navigate to the project folder:
+   cd sentiment-_-analysis-_broject
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Open the Jupyter Notebook:
+   jupyter notebook Sentiment_Analysis.ipynb
+## Usage
+1. Place your CSV file in the `data/` folder.
+2. Update the file path in the notebook if necessary.
+3. Run cells step by step: Data Cleaning → Sentiment Analysis → Visualization.
+4. Check the output tables and charts to interpret the sentiment.
+## Demo
+| Comment                | Polarity | Sentiment |
+|------------------------|----------|-----------|
+| "I love this product!" | 0.8      | Positive  |
+| "It was okay."         | 0        | Neutral   |
+| "I hate it."           | -0.7     | Negative  |
+![Sentiment Chart Example](screenshots/screenshot.png)
+sentiment-_-analysis-_broject/
+├─ notebooks/
+│   └─ Sentiment_Analysis.ipynb
+├─ data/
+│   └─ sample_comments.csv
+├─ scripts/
+│   └─ sentiment_analysis.py
+├─ screenshots/
+│   └─ sentiment_chart.png
+├─ requirements.txt
+└─ README.md
+## Next Steps / Improvements
+- Add ML classification models (Logistic Regression, Naive Bayes)
+- Build a Web App (Streamlit/Flask)
+- Handle multiple languages
+- Keyphrase extraction (KeyBERT)
+## Author
+**Zuhai Romaima**  
+- GitHub: [zuhairomaima11-cmyk](https://github.com/zuhairomaima11-cmyk)  
+- Email: your-email@example.com *(optional)*
